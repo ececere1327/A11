@@ -7,7 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    width: 800px;
+    width: 98%;
+    max-width: 960px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -19,7 +20,7 @@ html {
 
 header img {
     float: left;
-    margin: 0 30px;
+    margin: 0 2.5%;
 }
 
 header {
@@ -43,9 +44,9 @@ header h3 {
 }
 
 section {
-    width: 525px;
+    width: 65%;
     float: right;
-    padding: 0 20px 20px 20px;
+    padding: 0 2.5%;
 }
 
 section h1 {
@@ -96,12 +97,14 @@ article img {
     float: right;
     margin: .5em 0 1em 1em;
     border: 1px solid black;
+    max-width: 40%;
+    min-width: 150px;
 }
 
 aside {
-    width: 215px;
+    width: 27%;
     float: right;
-    padding: 0 0 20px 20px;
+    padding: 0 2.5% 20px 2.5%;
 }
 
 aside h2 {
@@ -146,13 +149,13 @@ nav#nav_menu ul li {
     float: left;
     position: relative;
     width: 20%;
+    padding: 1% 0;
 }
 
 nav#nav_menu ul li a {
     display: block;
     width: 100%;
     text-align: center;
-    padding: 1em 0;
     text-decoration: none;
     background-color: #800000;
     color: white;
